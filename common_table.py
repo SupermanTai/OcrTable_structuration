@@ -37,7 +37,7 @@ if __name__ == "__main__":
     import os
 
     # image_file = r''
-    image_file = r'/home/dell/project/mydemo/common_table_ocr_simple/0095 - output_page_141.png'
+    image_file = r'141.png'
     save_path, img_prefix = os.path.dirname(image_file), os.path.basename(image_file).split('.')[0]
     tableJson = main(image_file, save_path = save_path, img_prefix=img_prefix)
     print(tableJson)
